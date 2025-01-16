@@ -1,0 +1,15 @@
+[package]
+name = "File-Crawller"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.9.0"
+crossbeam-channel = "0.5.14"
+html_parser = "0.7.0"
+md5 = "0.7.0"
+reqwest = {version = "0.12.12", features = ["blocking","zstd","gzip","deflate","brotli"]}
+scraper = "0.22.0"
+sha256 = "1.5.0"
+texting_robots = "0.2.2"
+url = "2.5.4"
